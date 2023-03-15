@@ -1,0 +1,8 @@
+{
+  "name": "Bookshelf-API",
+  "version": "1.0.0",
+  "description": "Dicoding Bookshelf API",
+  "main": "src/index.js",
+  "author": "Evan-aja",
+  "license": "GPL-3.0"
+}
