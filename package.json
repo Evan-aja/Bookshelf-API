@@ -1,8 +1,19 @@
 {
-  "name": "Bookshelf-API",
+  "name": "bookshelf-api",
   "version": "1.0.0",
   "description": "Dicoding Bookshelf API",
-  "main": "src/index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "type": "module",
   "author": "Evan-aja",
-  "license": "GPL-3.0"
+  "license": "MIT",
+  "devDependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^4.0.1",
+    "nodemon": "^2.0.21"
+  }
 }
