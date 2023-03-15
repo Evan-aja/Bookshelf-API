@@ -5,7 +5,7 @@ const put = [
         path: "/books/{bookId}",
         method: "PUT",
         handler: editBookByIdHandler,
-        routes: {
+        options: {
             cors: {
                 origin: ["*"],
             },

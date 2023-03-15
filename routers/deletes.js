@@ -5,7 +5,7 @@ const deletes = [
         method: "DELETE",
         path: "/books/{bookId}",
         handler: deleteBookByIdHandler,
-        routes: {
+        options: {
             cors: {
                 origin: ["*"],
             },

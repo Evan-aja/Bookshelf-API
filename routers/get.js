@@ -4,7 +4,7 @@ const get = [
         method: "GET",
         path: "/books",
         handler: list.getAllBooksHandler,
-        routes: {
+        options: {
             cors: {
                 origin: ["*"],
             },
@@ -14,7 +14,7 @@ const get = [
         method: "GET",
         path: "/books/{bookId}",
         handler: list.getBookByIdHandler,
-        routes: {
+        options: {
             cors: {
                 origin: ["*"],
             },

@@ -5,7 +5,7 @@ const post = [
         path: "/books",
         method: "POST",
         handler: addBooksHandler,
-        routes: {
+        options: {
             cors: {
                 origin: ["*"],
             },
